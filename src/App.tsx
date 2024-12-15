@@ -8,6 +8,7 @@ import SearchPage from "./pages/SearchPage.tsx";
 import ProfilePage from "./pages/ProfilePage.tsx";
 import BottomNav from "./components/BottomNav.tsx";
 import CssBaseline from "@mui/material/CssBaseline";
+import BottomNavCss from "./components/BottomNavCss.tsx";
 
 const isMobileDevice = (): boolean => {
 	const userAgent = navigator.userAgent.toLowerCase();
@@ -31,7 +32,7 @@ const App: React.FC = () => {
 				<Route path="/search" element={<SearchPage />} />
 				<Route path="/settings" element={<ProfilePage />} />
 			</Routes>
-			{isMobile && <BottomNav/>}
+			{isMobile && <BottomNavCss/>}
 		</>
 	);
 };
