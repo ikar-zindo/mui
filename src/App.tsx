@@ -1,6 +1,7 @@
 import React from "react";
 import './App.css';
 import Preloader from "./components/common/elements/Preloader";
+import FabIntegrationSnackbar from "./components/mui/FabIntegrationSnackbar.tsx";
 
 const App: React.FC = () => {
 	const initialized = true
@@ -11,7 +12,7 @@ const App: React.FC = () => {
 
 	return (
 		<>
-			{/*<FabIntegrationSnackbar/>*/}
+			<FabIntegrationSnackbar/>
 			{/*<MuiRadioButton/>*/}
 			{/*<MuiCheckBox/>*/}
 			{/*<MuiTextField/>*/}
