@@ -8,7 +8,7 @@ export default defineConfig(({ mode }): UserConfig => {
 	const env = loadEnv(mode, process.cwd());
 
 	return {
-		base: '/gastro-sos-fe/',
+		base: '/mui/',
 		plugins: [react(), svgr()],
 		server: {
 			port: 3000,
