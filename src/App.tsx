@@ -6,7 +6,6 @@ import {Route, Routes} from "react-router-dom";
 import HomePage from "./pages/HomePage.tsx";
 import SearchPage from "./pages/SearchPage.tsx";
 import ProfilePage from "./pages/ProfilePage.tsx";
-import BottomNav from "./components/BottomNav.tsx";
 import CssBaseline from "@mui/material/CssBaseline";
 import BottomNavCss from "./components/BottomNavCss.tsx";
 
